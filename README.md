@@ -1,2 +1,3 @@
-# n2
-Explore a custom ASR model with an interactive notebook showcasing the training process.
+# N2
+
+![image](https://github.com/anarlavrenov/n2/blob/main/n2_logo.webp)
