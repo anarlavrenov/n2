@@ -36,7 +36,7 @@ true: the caseload of each fbi agent averaged  to  and he felt that this was hig
 Час навчання моделі  ~ 8 год
 GPU: Nvidia L4
 
-Весь необхідний код для інференсу моделі знаходиться в [inference.ipynb](https://github.com/anarlavrenov/n2/blob/main/inference.ipynb), код тренування моделі - в [training.ipynb](https://github.com/anarlavrenov/n2/blob/main/train.ipynb).<br><br>
+Весь необхідний код для інференсу моделі знаходиться в [inference.ipynb](https://github.com/anarlavrenov/n2/blob/main/inference.ipynb), код тренування моделі - в [training.ipynb](https://github.com/anarlavrenov/n2/blob/main/training.ipynb).<br><br>
 
 # Післямова<br>
 
