@@ -6,6 +6,6 @@ N2 є моделлю Automatic Speech Recognition (або Speech-To-Text). Да�
 ![image](https://github.com/anarlavrenov/n2/blob/main/loss.png)
 
 diagram
-![image](https://github.com/anarlavrenov/n2/blob/main/pipeline_diagram.png)
+![image](https://github.com/anarlavrenov/n2/blob/main/pipeline_diagram.webp)
 
 
