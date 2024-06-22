@@ -9,7 +9,12 @@ N2 є моделлю Automatic Speech Recognition (або Speech-To-Text) анг
 ![image](https://github.com/anarlavrenov/n2/blob/main/loss.png)
 
 
-Модель навчена на датасеті LibriSpeech-clean-100 з кастомною аугментацією даних. Тест проходила на іншому датасеті: LJSpeech. В процесі інференсу використовувався простий Greedy Decoder. При використанні Language Model в процесі декодингу, результати повинні бути значно кращі. Метрики на валідації LibriSpeech: wer score: 0.36, cer score: 0.15. На LJSpeech: wer score: 0.37, cer score: 0.14
+Модель навчена на датасеті LibriSpeech-clean-100 з кастомною аугментацією даних. Тест проходила на іншому датасеті: LJSpeech. В процесі інференсу використовувався простий Greedy Decoder. При використанні Language Model в процесі декодингу, результати повинні бути значно кращі. 
+
+```
+LibriSpeech (Validation): wer score: 0.36, cer score: 0.15.
+LJSpeech (Testing): wer score: 0.37, cer score: 0.14
+```
 
 Декілька прикладів роботи моделі на LJSpeech:
 
