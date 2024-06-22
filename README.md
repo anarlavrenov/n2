@@ -9,7 +9,7 @@ N2 є моделлю Automatic Speech Recognition (або Speech-To-Text) анг
 ![image](https://github.com/anarlavrenov/n2/blob/main/loss.png)
 
 
-Модель навчена на датасеті LibriSpeech-clean-100 з кастомною аугментацією данних. Валідацію проходила на іншому датасеті: LJSpeech.
+Модель навчена на датасеті LibriSpeech-clean-100 з кастомною аугментацією даних. Валідацію проходила на іншому датасеті: LJSpeech. В процесі інференсу використовувався простий Greedy Decoder. При використанні Language Model в процесі декодингу, результати повинні бути значно кращі.
 Декілька прикладів роботи моделі на LJSpeech:
 
 ```
