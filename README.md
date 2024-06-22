@@ -1,6 +1,6 @@
 # N2
 
-N2 є моделлю Automatic Speech Recognition (або Speech-To-Text) англійською мовою. Написана з нуля на PyTorch. Розроблена [Анаром Лавреновим, Head of AI компанії SPUNCH](https://www.linkedin.com/mynetwork/). N2 має на меті заохотити вітчизняних Дата Сайнтистів до розвитку українскього напряму ШІ. 
+N2 є моделлю Automatic Speech Recognition (або Speech-To-Text) англійською мовою. Написана з нуля на PyTorch. Розроблена [Анаром Лавреновим, Head of AI компанії SPUNCH](https://www.linkedin.com/mynetwork/). Додаткова аугментація даних (додавання шуму та ефекту приміщення) допомогають моделі краще адаптуватися до тестових даних, залишаючи її достатньо легкою й швидкою. N2 має на меті заохотити вітчизняних Дата Сайнтистів до розвитку українскього напряму ШІ. 
 
 ### Пайплайн тренування моделі
 ![image](https://github.com/anarlavrenov/n2/blob/main/pipeline_diagram.webp)
@@ -32,5 +32,8 @@ true: the caseload of each fbi agent averaged  to  and he felt that this was hig
 
 
 # Використання<br>
+
+Час навчання моделі  ~ 8 год
+GPU: Nvidia L4
 
 Весь необхідний код для інференсу моделі знаходиться в [inference.ipynb](https://github.com/anarlavrenov/n2/blob/main/inference.ipynb), код тренування моделі - в [training.ipynb](https://github.com/anarlavrenov/n2/blob/main/train.ipynb).<br><br>
