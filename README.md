@@ -29,3 +29,8 @@ pred: caselon of e cef be i agent average twenty to twenty five and he felt that
 true: the caseload of each fbi agent averaged  to  and he felt that this was high
 
 ```
+
+
+# Використання<br>
+
+Весь необхідний код для інференсу моделі знаходиться в [inference.ipynb](https://github.com/anarlavrenov/n2/blob/main/inference.ipynb), код тренування моделі - в [training.ipynb](https://github.com/anarlavrenov/n2/blob/main/train.ipynb).<br><br>
